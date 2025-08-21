@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig, devices } from '@playwright/experimental-ct-react17';
+const { defineConfig, devices } = require('@playwright/experimental-ct-react17');
 
 /**
  * @see https://playwright.dev/docs/test-configuration
